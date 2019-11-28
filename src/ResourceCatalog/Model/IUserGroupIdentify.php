@@ -18,7 +18,7 @@ interface IUserGroupIdentify
         IUserGroup::ID['SHFZJ'] => 'SHFZJ',
         IUserGroup::ID['JYTYJ'] => 'JYTYJ',
         IUserGroup::ID['CSGLJ'] => 'CSGLJ',
-        IUserGroup::ID['JGZX'] => 'JGZX',
+        IUserGroup::ID['GXFT'] => 'GXFT',
         IUserGroup::ID['WZBZFB'] => 'WZBZFB',
         IUserGroup::ID['SQGLJ'] => 'SQGLJ',
         IUserGroup::ID['MSJ'] => 'MSJ',
@@ -43,6 +43,5 @@ interface IUserGroupIdentify
         IUserGroup::ID['JJDD'] => 'JJDD',
         IUserGroup::ID['JCS'] => 'JCS',
         IUserGroup::ID['XFJYDD'] => 'XFJYDD',
-        IUserGroup::ID['GXFT'] => 'GXFT'
     );
 }

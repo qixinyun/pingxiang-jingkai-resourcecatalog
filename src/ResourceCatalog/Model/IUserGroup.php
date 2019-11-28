@@ -18,7 +18,7 @@ interface IUserGroup extends IUserGroupIdentify
         'SHFZJ' => 11,
         'JYTYJ' => 12,
         'CSGLJ' => 13,
-        'JGZX' => 14,
+        'GXFT' => 14,
         'WZBZFB' => 15,
         'SQGLJ' => 16,
         'MSJ' => 17,
@@ -43,6 +43,5 @@ interface IUserGroup extends IUserGroupIdentify
         'JJDD' => 36,
         'JCS' => 37,
         'XFJYDD' => 38,
-        'GXFT' => 39,
     );
 }
