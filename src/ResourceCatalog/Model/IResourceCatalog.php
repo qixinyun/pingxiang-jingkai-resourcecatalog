@@ -9,7 +9,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'XBXZXK' => 2,
         'YSCRJZJJJZGRDXX' => 3,
         'JDCWFXX' => 4,
-        'ZFCGDLJGXX' => 5,
+        'ZFCGDLJGXX' => 5, 
         'QYRYXX' => 6,
         'JSZGXX' => 7,
         'SJYXXS' => 8,
@@ -36,6 +36,8 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'CCJCJGXX' => 29,
         'LSTDFWBA' => 30,
         'XZXKQYXX' => 31,
+        'JKQTYXHDJXX' => 32,
+        'CPTGLSZXCPRZMD' => 33,
         'TEST' => 500
     );
 
@@ -45,20 +47,25 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['XBXZCF'],
             self::TYPE['XBXZXK'],
         ),
-        IUserGroup::ID['GAFJ'] => array(self::TYPE['YSCRJZJJJZGRDXX'], self::TYPE['JDCWFXX']),
-        IUserGroup::ID['CZJ'] => array(self::TYPE['ZFCGDLJGXX']),
-        IUserGroup::ID['GZW'] => array(self::TYPE['QYRYXX']),
-        IUserGroup::ID['JYTYJ'] => array(
+        IUserGroup::ID['GAFJ'] => array(self::TYPE['YSCRJZJJJZGRDXX'], self::TYPE['JDCWFXX']),//
+        IUserGroup::ID['CZJ'] => array(self::TYPE['ZFCGDLJGXX']),//
+        IUserGroup::ID['GZW'] => array(self::TYPE['QYRYXX']),//
+        IUserGroup::ID['JYTYJ'] => array(//
             self::TYPE['JSZGXX'],
             self::TYPE['SJYXXS'],
             self::TYPE['JYJGXINXI'],
             self::TYPE['GRRYXXJYJ'],
             self::TYPE['JGRYXXSJYJ'],
+            self::TYPE['JKQTYXHDJXX'],
         ),
-        IUserGroup::ID['JSJ'] => array(self::TYPE['ZLJCQYXX']),
-        IUserGroup::ID['LYFJ'] => array(self::TYPE['QSLHXJJTJL']),
-        IUserGroup::ID['SWJ'] => array(self::TYPE['QYGSZXXX'], self::TYPE['AJNSRXX'], self::TYPE['QYDSXZCFXX']),
-        IUserGroup::ID['SCJDGLJ'] => array(
+        IUserGroup::ID['JSJ'] => array(self::TYPE['ZLJCQYXX']),//
+        IUserGroup::ID['LYFJ'] => array(self::TYPE['QSLHXJJTJL']),//
+        IUserGroup::ID['SWJ'] => array(//
+            self::TYPE['QYGSZXXX'],
+            self::TYPE['AJNSRXX'],
+            self::TYPE['QYDSXZCFXX']
+        ),
+        IUserGroup::ID['SCJDGLJ'] => array(//
             self::TYPE['QIYEJBXX'],
             self::TYPE['GTGSHXX'],
             self::TYPE['CMQYSBXX'],
@@ -73,8 +80,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['QYDXXX'],
             self::TYPE['CCJCJGXX'],
         ),
-        IUserGroup::ID['HBJ'] => array(self::TYPE['LSTDFWBA']),
-        IUserGroup::ID['CSGLJ'] => array(self::TYPE['XZXKQYXX']),
+        IUserGroup::ID['HBJ'] => array(self::TYPE['CPTGLSZXCPRZMD']),//
+        IUserGroup::ID['CSGLJ'] => array(self::TYPE['XZXKQYXX']),//
+        IUserGroup::ID['GGZWGLJ'] => array(self::TYPE['LSTDFWBA']),//
+
     );
 
     const STATUS_NORMAL = 0;
