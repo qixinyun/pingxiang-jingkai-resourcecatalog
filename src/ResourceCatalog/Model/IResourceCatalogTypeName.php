@@ -5,8 +5,8 @@ interface IResourceCatalogTypeName
 {
     const TYPE_NAME = array(
         IResourceCatalog::TYPE['NULL'] => 0,
-        IResourceCatalog::TYPE['XBXZCF'] => '2019行政处罚公示信息',
-        IResourceCatalog::TYPE['XBXZXK'] => '2019行政许可公示信息',
+        IResourceCatalog::TYPE['XBXZCF'] => '行政处罚公示信息',
+        IResourceCatalog::TYPE['XBXZXK'] => '行政许可公示信息',
         IResourceCatalog::TYPE['YSCRJZJJJZGRDXX'] => '因私出入境中介机构资格认定信息（境外就业、留学除外）',
         IResourceCatalog::TYPE['JDCWFXX'] => '机动车违法信息（酒后驾车违法信息）',
         IResourceCatalog::TYPE['ZFCGDLJGXX'] => '政府采购代理机构信息',
